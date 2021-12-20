@@ -6,7 +6,7 @@ for automated build/compile exe , pull/push into git, can customed
 ## command
 to run 
 ```
-java -jar jenkins.war --httpPort=8080
+java -jar jenkins.war --httpPort=8010
 ```
 
 
