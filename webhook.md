@@ -10,7 +10,7 @@ sample hook.json
 ```
 [
   {
-    "id": "build-mdtv2",
+    "id": "build-jk",
     "execute-command": "E:/app/webhook/build-jk.bat",
     "command-working-directory": "E:/app/webhook",
     "response-message": "Rebuild mdtv2...",
