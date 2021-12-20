@@ -5,7 +5,20 @@ for automated build/compile exe , pull/push into git, can customed
 
 ## command
 
-## run jenkin cli
+
+
+## jenkin cli
+url jenkin cli
+```
+http://your-jenkins-url:port/cli
+```
+
+create api token
+```
+JENKINS_URL:PORT/user/YOUR_USER/configure
+```
+
+command to run
 ```
 java -jar jenkins-cli.jar -auth admin:12780e8a3daea289dnov38f059ddd3b333  -s http://localhost:8010/ build "build-production" 
 ```
