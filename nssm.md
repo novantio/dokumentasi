@@ -6,10 +6,14 @@ make .bat or any command into windows service
 
 ## command
 Service installation
-``` nssm install <servicename> ```
+``` 
+nssm install <servicename> 
+```
 
 Service removal
-``` nssm remove <servicename> ```
+``` 
+nssm remove <servicename>
+```
 
 Starting and stopping a service
 ```
