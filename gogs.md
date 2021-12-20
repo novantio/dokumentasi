@@ -2,4 +2,4 @@
 gogs for alternate git for localhost
 
 ##command
->gogs.exe web
+```gogs.exe web```
