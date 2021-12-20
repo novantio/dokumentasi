@@ -5,6 +5,10 @@ for automated build/compile exe , pull/push into git, can customed
 
 ## command
 
+## run jenkin cli
+```
+java -jar jenkins-cli.jar -auth admin:12780e8a3daea289dnov38f059ddd3b333  -s http://localhost:8010/ build "build-production" 
+```
 
 ## sample pipeline script for windows
 ```
