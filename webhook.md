@@ -1,5 +1,5 @@
 # definition
-for hook url/hook to execute cmd
+for hook http://url/hook to execute cmd
 
 # command 
 to run
