@@ -3,10 +3,10 @@
 ## documentation
 for automated build/compile exe , pull/push into git, can customed 
 
-##command
+## command
 
 
-##sample pipeline script for windows
+## sample pipeline script for windows
 ```
 pipeline {
     agent any
