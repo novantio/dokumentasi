@@ -12,11 +12,11 @@ location /content {
 remove element tag using reverse proxy
 ```
 location /mmmmm/ {
-			proxy_set_header Accept-Encoding "";
-            proxy_pass   http://localhost:3000/;
-			proxy_set_header   Host http://localhost:3000/;
-			proxy_pass_request_headers      on;
-			sub_filter '</body>' '<style>.EmbedFrame-footer{display:none;}</style></body>';
-			sub_filter_once on;	
+     proxy_set_header Accept-Encoding "";
+     proxy_pass   http://localhost:3000/;
+     proxy_set_header   Host http://localhost:3000/;
+     proxy_pass_request_headers      on;
+     sub_filter '</body>' '<style>.EmbedFrame-footer{display:none;}</style></body>';
+     sub_filter_once on;	
 }
 ```
