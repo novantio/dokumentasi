@@ -1,5 +1,7 @@
 # definition
 for configure webserver nginxx
+(config)[##config]
+(restart)[##restart]
 
 # config
 reverse proxy
