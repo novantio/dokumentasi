@@ -20,3 +20,13 @@ location /mmmmm/ {
      sub_filter_once on;	
 }
 ```
+# restart nginx
+to restart nginx
+windows
+```
+nginx -s reload
+```
+linux
+```
+systemctl restart nginx
+```
