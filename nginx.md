@@ -1,9 +1,9 @@
 # definition
 for configure webserver nginxx
-(config)[##config]
-(restart)[##restart]
+- [config](#config)
+- [restart](#restart)
 
-# config
+## config
 reverse proxy
 ```
 location /content {
@@ -22,7 +22,7 @@ location /mmmmm/ {
      sub_filter_once on;	
 }
 ```
-# restart nginx
+## restart nginx
 to restart nginx
 windows
 ```
