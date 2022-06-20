@@ -30,3 +30,9 @@ nssm pause <servicename>
 nssm continue <servicename>
 nssm rotate <servicename>
 ```
+
+## checking
+checking service on windows using powershell
+```
+Get-WmiObject win32_service | ?{$_.PathName -like '*nssm*'} | select Name, DisplayName, State, PathName
+```
