@@ -2,6 +2,7 @@
 for configure webserver nginxx
 - [config](#config)
 - [restart](#restart)
+- [custom header](#customheader)
 
 ## config
 reverse proxy
@@ -31,4 +32,17 @@ nginx -s reload
 linux
 ```
 systemctl restart nginx
+```
+
+## customheader
+
+on request header client, with dash
+```
+'custom-header': '1',
+```
+on server
+```
+if ($http_custom_header = '1') {
+	return 200 'set 1';
+}
 ```
