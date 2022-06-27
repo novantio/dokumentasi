@@ -46,3 +46,18 @@ if ($http_custom_header = '1') {
 	return 200 'set 1';
 }
 ```
+
+## if referer allowed
+allowed ```~*``` , not allowed ```!~```
+example not allowed if from not localhost, or allow only from localhost
+```
+location /content {
+	if ($http_referer !~ "^(.*localhost.*)"){
+		return 200 'not allowed';
+	}
+
+	proxy_pass http://10.15.16.21/content;
+}
+```
+
+
