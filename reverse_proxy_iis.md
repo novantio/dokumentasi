@@ -1,5 +1,10 @@
-# definition
+# Definition
 for reverse proxy iis
+
+# instalation
+install 2 required software first
+- requestRouter_amd64.msi
+- rewrite_amd64_en-US.msi
 
 # command
 
@@ -19,7 +24,8 @@ sample config
     </system.webServer>
 </configuration>
 ```
-for condition referer contain regex
+
+# for condition referer contain regex
 ```
 <conditions>
     <add input="{HTTP_REFERER}" pattern=".*(novantio.com|localhost).*" negate="false" />
