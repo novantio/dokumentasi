@@ -27,4 +27,21 @@ sample hook.json
   }
 ]
 ```
+using url to pass cmd
+```localhost:9000/hooks/novantio?gettest=hello```
+hook.json
+```
+[
+  {
+	 "id":"novantio",
+	 "execute-command": "test.bat",
+	 "response-message": "Executing simple webhook...",
+	 "command-working-directory":"D:/tools/webhook-windows-amd64/webhook-windows-amd64/test",
+	 "pass-arguments-to-command":[{
+		 "source":"url",
+		 "name":"gettest"
+	 }]
+  }
+]
+```
 
