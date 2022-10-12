@@ -7,6 +7,7 @@ for documentation configuration windows server
 - [automate](#automate)
 - [database](#database)
 - [reverseproxy](#reverseproxy)
+- [proxy](#proxy)
 - [viewer](#viewer)
 - [tools](#tools)
 
@@ -30,6 +31,9 @@ windows server
 
 ## reverseproxy
 - [iisreverse](https://github.com/novantio/dokumentasi/blob/main/reverse_proxy_iis.md)
+
+## proxy
+- [netsh](https://github.com/novantio/dokumentasi/blob/main/netsh.md)
 
 ## viewer
 - [converttopdf](https://github.com/novantio/dokumentasi/blob/main/viewer_office.md)
