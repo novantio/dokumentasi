@@ -3,6 +3,7 @@ for configure webserver nginxx
 - [config](#config)
 - [restart](#restart)
 - [custom header](#customheader)
+- [setting ssl](##setting ssl )
 
 ## config
 reverse proxy
@@ -60,7 +61,8 @@ location /content {
 }
 ```
 
-## setting ssl on nginx user certificate locale
+## setting ssl 
+on nginx user certificate locale
 generate crt and key
 ```
 openssl req -x509 -sha256 -nodes -newkey rsa:2048 -days 365 -keyout localhost.key -out localhost.crt
