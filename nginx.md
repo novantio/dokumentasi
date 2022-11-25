@@ -3,7 +3,7 @@ for configure webserver nginxx
 - [config](#config)
 - [restart](#restart)
 - [custom header](#customheader)
-- [setting ssl](##settingssl )
+- [setting ssl](#settingssl )
 
 ## config
 reverse proxy
