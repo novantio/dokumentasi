@@ -60,4 +60,21 @@ location /content {
 }
 ```
 
+## setting ssl on nginx user certificate locale
+generate crt and key
+```
+openssl req -x509 -sha256 -nodes -newkey rsa:2048 -days 365 -keyout localhost.key -out localhost.crt
+```
+convert crt to pem
+```
+openssl x509 -in localhost.crt -out localhost.pem -outform PEM
+```
+include key and pem to 
+```
+#https server
+server{
+	ssl_certificate localhost.pem;
+	ssl_certificate_key localhost.key;
+}
+```
 
