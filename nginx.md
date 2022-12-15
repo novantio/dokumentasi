@@ -80,3 +80,28 @@ server{
 }
 ```
 
+## 2 domain same server
+for example domain abc.domain.com and def.domain.com with same port 80
+```
+server{
+        listen       80;
+        server_name  abc.domain.com;
+
+        location / {
+            root   htmlabc.domain.com;
+            index  index.html index.htm;
+        }
+}
+
+server{
+	listen       80;
+        server_name  def.domain.com;
+
+        location / {
+            root   htmldef.domain.com;
+            index  index.html index.htm;
+        }
+}
+```
+
+
