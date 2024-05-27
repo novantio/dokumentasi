@@ -10,6 +10,7 @@ for documentation configuration windows server
 - [proxy](#proxy)
 - [viewer](#viewer)
 - [tools](#tools)
+- [telegram](#telegram)
 
 ## webserver
 - [nginx](https://github.com/novantio/dokumentasi/blob/main/nginx.md)
@@ -40,4 +41,7 @@ windows server
 
 ## tools
 - [autodelete](https://github.com/novantio/dokumentasi/blob/main/windows_auto_delete.md)
+
+## telegram
+- [telegrambot](https://github.com/novantio/dokumentasi/blob/main/telegram.md)
 
